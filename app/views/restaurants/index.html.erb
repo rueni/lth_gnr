@@ -6,29 +6,31 @@
 
 <script type="text/javascript" id='gnr-template'>
 <tr>
-  <td><%%= title %></td>
+  <td><%%= '<a href="' + website + '" target="_blank">' + title +'</a>' %></td>
   <td><%%= cuisine_type %></td>
   <td><%%= description %></td>
-  <td><%%= address + ', ' + city + ' ' + state + ' ' + zip %></td>
+  <td><%%= notes %></td>
+  <td><%%= '<a href="https://www.google.com/maps/dir/Current+Location/' + address + '+' + city + '+' + state + '+' + zip + '" target="_blank">Map</a>'%></td>
   <td><%%= '<a href="tel:' + phone_number + '">Call</a>' %></td>
-  <td><%%= '<a href="' + website + '" target="_blank">Link</a>' %></td>
   <td><%%= '<a href="' + lth_review + '" target="_blank">Review</a>' %></td>
+  <td><%%= date_added %></td>
 </tr>
 </script>
 
 <div class="content-wrapper">
 
   <div class="table_wrapper">
-    <table cellpadding="1" cellspacing="1" id="resultTable" class="table-bordered table-content">
+    <table cellpadding="1" cellspacing="1" id="resultTable" class="table-bordered table-content table-hover">
       <thead>
         <tr>
-          <th class="sortable"><strong>Name</strong></th>
-          <th class="sortable"><strong>Cuisine Type</strong></th>
-          <th><strong>Description</strong></th>
-          <th><strong>Address</strong></th>
-          <th><strong>Phone</strong></th>
-          <th><strong>Website</strong></th>
-          <th><strong>Forum Review</strong></th>
+          <th class="sortable medium"><strong>Name</strong></th>
+          <th class="sortable medium"><strong>Cuisine Type</strong></th>
+          <th class="wide"><strong>Description</strong></th>
+          <th class="medium"><strong>Notes</strong></th>
+          <th class="narrow"><strong>Direction</strong></th>
+          <th class="narrow"><strong>Phone</strong></th>
+          <th class="narrow"><strong>Forum Review</strong></th>
+          <th class="narrow"><strong>Date Nominated</strong></th>
         </tr>
       </thead>
       <tbody id="gnr-list">

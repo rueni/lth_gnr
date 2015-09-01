@@ -54,23 +54,38 @@ h1, h2, h3, h4, h5, h6 {
 
 
 table {
-	border-spacing: 10px 5px;
+	border: 1px solid black;
+	table-layout: auto;
+	width: 100%;
 	th {
 		font-size: .8em;
 		font-family: 'Raleway', sans-serif;
 		font-weight: normal;
 	}
+	th.wide {
+		width: 550px;
+	}
+	th.medium {
+		width: 125px;
+	}
+	th.narrow {
+		width: 60px;
+	}
+
 	th.sortable {
 	    color: blue;
 	    cursor: pointer;
 	    text-decoration: underline;
-
 	}
 	th.sortable:hover {
 		color: black;
 	}
 	th.sorted-asc, th.sorted-desc  {
 		color: black;
+	}
+	.sorted {
+		font-style: italic;
+		color:darkred;
 	}
 
 	td{

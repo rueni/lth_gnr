@@ -343,3 +343,19 @@ Restaurant.create(
   website: "",
   date_added: "2009-08-23"
 )
+Restaurant.create(
+  description: "Excellent Peruvian fare, with the charcoal-grilled chicken headlining, but each dish, down to the simple, white rice on the side, is done with care and skill.",
+  state: "IL",
+  zip: 60618,
+  phone_number: 7734780819,
+  cuisine_type: "Latin American, Caribbean",
+  created_at: "2015-09-01T03:43:28.236Z",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=363115#p363115",
+  title: "D'Candela",
+  notes: "",
+  address: "4053 N Kedzie Ave",
+  city: "Chicago",
+  updated_at: "2015-09-01T03:43:28.236Z",
+  website: "http://www.dcandela.com/",
+  date_added: "2011-01-17"
+)
