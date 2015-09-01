@@ -50,9 +50,7 @@ app.collectionView = Backbone.View.extend({
   },
   getRandom: function() {
     var coll = this.collection;
-    // returns random model... check for data in .attributes
     return coll.sample();
-    el: $('#roulette-result');
   }
 });
 //end blueprints
@@ -65,13 +63,12 @@ $(document).ready(function(event) {
     el: $('#gnr-list')
   });
 
+// Restaurant roulette setup
   $('.random').on('click', function(){
     var random = active.collectionView.getRandom();
-    console.log(random);
     this.template = _.template($('#roulette-template').html());
     $('#roulette-result').html(this.template(random.attributes));
   });
-
 
 ///////////////////////////////////////////////////////////////////
 // Add sorting feature to list
