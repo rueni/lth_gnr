@@ -4,6 +4,7 @@
 var app = app || {};
 var active = active || {};
 
+
 $.ajaxSetup({
   beforeSend: function(xhr){
     xhr.setRequestHeader('Authorization', 'Token token=' + global.apiKey)
@@ -28,6 +29,7 @@ app.modelView = Backbone.View.extend({
 });
 app.collectionView = Backbone.View.extend({
   initialize: function() {
+    this.render();
     var that = this;
     this.collection.on('sync', function() {
       that.render();
@@ -45,10 +47,17 @@ app.collectionView = Backbone.View.extend({
         model: collection[model]
       });
     }
+  },
+  getRandom: function() {
+    var coll = this.collection;
+    // returns random model... check for data in .attributes
+    return coll.sample();
+    el: $('#roulette-result');
   }
 });
 //end blueprints
 
+// Load objects to DOM
 $(document).ready(function(event) {
   active.collection = new app.collection();
   active.collectionView = new app.collectionView({
@@ -56,6 +65,15 @@ $(document).ready(function(event) {
     el: $('#gnr-list')
   });
 
+  $('.random').on('click', function(){
+    var random = active.collectionView.getRandom();
+    console.log(random);
+    this.template = _.template($('#roulette-template').html());
+    $('#roulette-result').html(this.template(random.attributes));
+  });
+
+
+///////////////////////////////////////////////////////////////////
 // Add sorting feature to list
   $('thead th.sortable').each(function(column) {
   $(this).click(function(){
@@ -100,4 +118,7 @@ $(document).ready(function(event) {
     zebraRows('.visible:even td', 'odd');
   });
 });
+////////////////////////////////////////////////////////////////////////
+// End sort
+
 });

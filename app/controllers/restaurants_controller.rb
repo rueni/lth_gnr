@@ -1,6 +1,7 @@
 class RestaurantsController < ApplicationController
 
   def home
+    @key = ENV['API_KEY']
   end
 
   def about
@@ -10,7 +11,7 @@ class RestaurantsController < ApplicationController
   end
 
   def index
-      @key = ENV['API_KEY']
+    @key = ENV['API_KEY']
   end
 
 end
