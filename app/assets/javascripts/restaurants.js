@@ -1,6 +1,7 @@
 // #gnr-template
 // #gnr-list
 
+
 var app = app || {};
 var active = active || {};
 
@@ -114,8 +115,13 @@ $(document).ready(function(event) {
     $('.visible td').removeClass('odd');
     zebraRows('.visible:even td', 'odd');
   });
+
 });
 ////////////////////////////////////////////////////////////////////////
-// End sort
+// Hamburger Menu
+
+  $(".navbar-toggle").on("click", function () {
+	    $(this).toggleClass("active");
+  });
 
 });

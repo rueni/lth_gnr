@@ -24,29 +24,42 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 }
 
-#nav-bar {
-	margin-left: 0px;
-	max-width: 100%;
-	p {
-		display: inline-block;
-	}
-	.container-fluid {
-		padding: 1em 3em;
-		border-bottom: 1px solid #d6dce0;
-		background: #f5f7f9;
-		color: #9eafba;
-		.buttons {
-			float: right;
-			margin-top: -6px;
-			.button {
-				font-size: .9em;
-				margin-left: .5em;
-			}
-		}
-	}
+
+.navbar-collapse {
+	text-align: center;
+	float: right;
+}
+.navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 1px;
 }
 
-.content-wrapper {
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	  top: 6px;
+	  transform: rotate(45deg);
+}
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	  background-color: transparent;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	  top: -6px;
+	  transform: rotate(-45deg);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-weight: 300;
+}
+
+.container {
 	margin-left: 0px;
 	padding: 1em 3em;
 	margin-top: 50px;
