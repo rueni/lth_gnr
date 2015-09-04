@@ -901,3 +901,171 @@ Restaurant.create(
   website: "",
   date_added: "2006-06-09"
 )
+Restaurant.create(
+  description: "The anchor of its little-visited Roseland neighborhood on the southeast side, this place cranks out fresh doughnuts and breathtakingly rich apple fritters.",
+  state: "IL",
+  zip: 60628,
+  phone_number: 7739957420,
+  cuisine_type: "Bakery",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=15196",
+  title: "Old Fashioned Donut",
+  notes: "",
+  address: "11248 S Michigan Ave",
+  city: "Chicago",
+  website: "",
+  date_added: "2007-09-10"
+)
+Restaurant.create(
+  description: "Are you a sucker for a pub with great food? Yeah, we are, too.",
+  state: "IL",
+  zip: 60647,
+  phone_number: 7732352930,
+  cuisine_type: "Hamburgers",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=408058#p408058",
+  title: "Owen & Engine",
+  notes: "",
+  address: "2700 N Western Ave",
+  city: "Chicago",
+  website: "http://www.owenandengine.com/",
+  date_added: "2012-03-06"
+)
+Restaurant.create(
+  description: "The savory pies are the draw, in a simple, unassuming space. Okay, that and the fact that the technique, ingredients and taste of everything they serve is just about perfect.",
+  state: "IL",
+  zip: 60608,
+  phone_number: 7735237437,
+  cuisine_type: "Bakery",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=407715#p407715",
+  title: "Pleasant House Bakery",
+  notes: "31st St Location Only",
+  address: "2964 W 31st St",
+  city: "Chicago",
+  website: "http://pleasanthousebakery.com/",
+  date_added: "2012-03-02"
+)
+Restaurant.create(
+  description: "A hearty Polish working-man’s spot, easily overlooked on fast-gentrifying Division Street.",
+  state: "IL",
+  zip: 60642,
+  phone_number: 7734866655,
+  cuisine_type: "Northern, Eastern European",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=3859",
+  title: "Podhalanka",
+  notes: "",
+  address: "1549 W Division",
+  city: "Chicago",
+  website: "",
+  date_added: "2005-05-26"
+)
+Restaurant.create(
+  description: "Yeah, yeah, it’s a bit of a celebrity spot, but it delivers. And not just the pork products - the vegetables are delicious, too. Really, we wanted to hate it, but it is too good.",
+  state: "IL",
+  zip: 60611,
+  phone_number: 3124641744,
+  cuisine_type: "New American, Fine Dining",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=363343#p363343",
+  title: "Purple Pig",
+  notes: "",
+  address: "500 N Michigan Ave",
+  city: "Chicago",
+  website: "http://thepurplepigchicago.com/",
+  date_added: "2011-02-19"
+)
+Restaurant.create(
+  description: "Rainbow is much more than just the best Thai cuisine currently in Chicago…the Naem Khao Tod, and Issan sausage are just the tip of the iceberg… the owners are the friendliest, warmest people you will meet…the type of restaurant that represents the common interests that tie together this mishmash of people from all walks that is LTH forum.",
+  state: "IL",
+  zip: 60625,
+  phone_number: 7737547660,
+  cuisine_type: "Thai",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?f=28&t=39237",
+  title: "Rainbow Thai Cuisine",
+  notes: "",
+  address: "4825 N Western Ave",
+  city: "Chicago",
+  website: "http://rainbowthaichicago.com/",
+  date_added: "2014-02-05"
+)
+Restaurant.create(
+  description: "Redhot Ranch builds on the best tradition of Chicago hot dog stands – natural casing dogs, crisp hand-cut fries, deft handling of condiments and customers – with addictive, homemade fried shrimp, and a signature griddled burger that compares favorably with the offerings of both the chef-driven pubs and most coveted national chains. The crisp-edged, well-seasoned cheeseburgers are one of the city’s great values and true delights.",
+  state: "IL",
+  zip: 60647,
+  phone_number: 7737726020,
+  cuisine_type: "Hamburgers",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=409251#p409251",
+  title: "Redhot Ranch",
+  notes: "Western and Ashland Locations",
+  address: "4825 N Western Ave",
+  city: "Chicago",
+  website: "",
+  date_added: "2012-03-14"
+)
+Restaurant.create(
+  description: "One of those singular neighborhood places that draws everyone in…Langostinos, the perfectly tender “Pulpo Especial,” piles of crabs swimming in buttery red sauce, and the “Veneno salad …the type of place where you plan ahead to wear your “eatin’ shirt,” because you will get messy, and you won’t even care.",
+  state: "IL",
+  zip: 60622,
+  phone_number: 7732527200,
+  cuisine_type: "Mexican",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?f=28&t=39325",
+  title: "Restaurant Veneno de Nayarit",
+  notes: "BYO",
+  address: "1024 N Ashland Ave",
+  city: "Chicago",
+  website: "http://www.restaurantvenenodenayarit.com/",
+  date_added: "2014-02-16"
+)
+Restaurant.create(
+  description: "West side Italian deli offering outstanding housemade sausages and sandwiches, including the “Will Special” (named for LTHForum member “YourPalWill”).",
+  state: "IL",
+  zip: 60634,
+  phone_number: 7736374252,
+  cuisine_type: "Deli",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=4078",
+  title: "Riviera Italian Imports",
+  notes: "",
+  address: "3220 N Harlem Ave",
+  city: "Chicago",
+  website: "",
+  date_added: "2005-06-12"
+)
+Restaurant.create(
+  description: "Almost-24-hour Korean barbecue spot has stern owners who probably don't quite know what to make of the late-night hipsters scarfing down delicious Korean grilled meats and soups.",
+  state: "IL",
+  zip: 60625,
+  phone_number: 7733341589,
+  cuisine_type: "Korean",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=8771",
+  title: "San Soo Gab San",
+  notes: "",
+  address: "5247 N. Western Ave",
+  city: "Chicago",
+  website: "",
+  date_added: "2006-06-11"
+)
+Restaurant.create(
+  description: "What do you get when a former bartender from the Whistler teams up with a former chef from Longman and Eagle? You get a gin-focused cocktail bar that’s dedicated to putting out creative mixed drinks and bar food at a reasonable price. Nothing goes better with a sharp, herbal gin cocktail than the decadent guapichosa sandwich with a side of perfectly-fried French fries and spicy pimenton aioli.",
+  state: "IL",
+  zip: 60647,
+  phone_number: 7732529700,
+  cuisine_type: "Cocktails",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=8771",
+  title: "Scofflaw",
+  notes: "",
+  address: "3201 W Armitage",
+  city: "Chicago",
+  website: "",
+  date_added: "2013-02-01"
+)
+Restaurant.create(
+  description: "Nothing says summer in Roscoe Village like the seasonal opening of this happy stand serving up creamy custard in the tradition of legendary spots like Kopp's in Milwaukee or Ted Drewes in St. Louis.",
+  state: "IL",
+  zip: 60657,
+  phone_number: 7732446415,
+  cuisine_type: "Dessert",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=8650",
+  title: "Scooter's Frozen Custard",
+  notes: "",
+  address: "1658 W Belmont Ave",
+  city: "Chicago",
+  website: "http://www.scootersfrozencustard.com/",
+  date_added: "2006-06-03"
+)
