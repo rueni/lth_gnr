@@ -1069,3 +1069,269 @@ Restaurant.create(
   website: "http://www.scootersfrozencustard.com/",
   date_added: "2006-06-03"
 )
+Restaurant.create(
+  description: "This Polish gem in Jefferson Park is able to stand out in a city full of Polish food by paying attention to what is truly important - crispy potato pancakes, fluffy pierogi and pork cutlets prepared the way your doting grandmother should have done in a perfect world.",
+  state: "IL",
+  zip: 60646,
+  phone_number: 7737631123,
+  cuisine_type: "Northern, Eastern European",
+  lth_review: "http://lthforum.com/bb/viewtopic.php?p=218178#p218178",
+  title: "Smak-Tak",
+  notes: "",
+  address: "5961 N Elston Ave",
+  city: "Chicago",
+  website: "http://www.smaktak.com/",
+  date_added: "2008-09-23"
+)
+Restaurant.create(
+  description: "An instant hit in its underserved Old Irving Park neighborhood, offering smoky brisket, ribs, pulled pork and good sides in an easygoing atmosphere.",
+  state: "IL",
+  zip: 60641,
+  phone_number: 7735457427,
+  cuisine_type: "BBQ",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=15171",
+  title: "Smoque BBQ",
+  notes: "",
+  address: "3800 N Pulaski Rd",
+  city: "Chicago",
+  website: "http://www.smoquebbq.com/",
+  date_added: "2007-09-07"
+)
+Restaurant.create(
+  description: "Mexican sitdown restaurant in the west side Craigin neighborhood, renowned for its complex moles, from yet another branch of the Bahena family.",
+  state: "IL",
+  zip: 60641,
+  phone_number: 7732824119,
+  cuisine_type: "Mexican",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=15102",
+  title: "Sol de Mexico",
+  notes: "",
+  address: "3018 N Cicero Ave",
+  city: "Chicago",
+  website: "",
+  date_added: "2007-09-01"
+)
+Restaurant.create(
+  description: "Owner Jonathan Goldsmith studied pizza-making in Italy and imported a massive wood-burning oven (and a pizza chef) to make the best and most authentic Neapolitan-style pizzas Chicago has ever seen.",
+  state: "IL",
+  zip: 60640,
+  phone_number: 7738782420,
+  cuisine_type: "Pizza",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=8838",
+  title: "Spacca Napoli",
+  notes: "",
+  address: "1769 W Sunnyside",
+  city: "Chicago",
+  website: "http://spaccanapolipizzeria.com/",
+  date_added: "2007-09-01"
+)
+Restaurant.create(
+  description: "Even in a cozy space, Sportsman’s Club expands the horizons of what a great neighborhood bar can be. They retain great talent, with a knowledgeable team preparing an ever-rotating menu of four perfectly balanced cocktails and amari along with their signature ode to bourbon, and equally happy to sling a High Life and whiskey shot in the comfortable surrounds. The menu is secondary only to the gathering, where thoughtful music, friendly games, and an open mind to community causes carry the day.",
+  state: "IL",
+  zip: 60622,
+  phone_number: 8722068054,
+  cuisine_type: "Cocktails",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?f=28&t=41791",
+  title: "Sportsman's Club",
+  notes: "",
+  address: "948 N Western Ave",
+  city: "Chicago",
+  website: "http://drinkingandgathering.com/",
+  date_added: "2015-02-16"
+)
+Restaurant.create(
+  description: "Chicago's first Thai restaurant devoted to Northern (Isaan) Thai cooking offers a wide range of pungent dishes (only a few of which involve bugs).",
+  state: "IL",
+  zip: 60618,
+  phone_number: 7735880133,
+  cuisine_type: "Thai",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=8842",
+  title: "Sticky Rice",
+  notes: "Western/Irving Park Location Only",
+  address: "4018 N Western Ave",
+  city: "Chicago",
+  website: "http://stickyricethai.com/index10.php",
+  date_added: "2006-06-16"
+)
+Restaurant.create(
+  description: "Homey Japanese-American diner welcomes a highly diverse Andersonville crowd for non-sushi Japanese comfort food.",
+  state: "IL",
+  zip: 60640,
+  phone_number: 7733346214,
+  cuisine_type: "Japanese",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=8840",
+  title: "Sunshine Cafe",
+  notes: "",
+  address: "5449 N Clark St",
+  city: "Chicago",
+  website: "",
+  date_added: "2006-06-15"
+)
+Restaurant.create(
+  description: "Chic Uptown Thai spot serving eye-opening authentic grilled meats and Thai curries.",
+  state: "IL",
+  zip: 60613,
+  phone_number: 7733275253,
+  cuisine_type: "Thai",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=4056",
+  title: "TAC Quick",
+  notes: "",
+  address: "3930 N Sheridan Rd",
+  city: "Chicago",
+  website: "",
+  date_added: "2005-06-10"
+)
+Restaurant.create(
+  description: "If you have eaten Carne en su Jugo, go check out one of the best versions you will find. If you have not tried it, prepare to enjoy.",
+  state: "IL",
+  zip: 60632,
+  phone_number: 7732542081,
+  cuisine_type: "Mexican",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=409511#p409511",
+  title: "Taqueria Los Gallos #2",
+  notes: "",
+  address: "4252 S Archer Ave",
+  city: "Chicago",
+  website: "",
+  date_added: "2012-03-16"
+)
+Restaurant.create(
+  description: "Taza Bakery is a portal to the Middle East; the sun rises in everything coming out of their ovens, from stellar flatbreads to substantial samoun to fragrant spinach pies. As good as they are with doughs, they excel with spreads, from herbaceous zaatar to the sweet roasted flavors of muhammara and lemon-drenched crumbles of soujouk sausage. Shawerma is beautifully charred and moist, and pairs so well with fresh-squeezed juices, yogurt, and honey-rich kanafeh. Whether carryout or dine-in under the gaze of the bakers, Taza is freshly savored.",
+  state: "IL",
+  zip: 60645,
+  phone_number: 7739427541,
+  cuisine_type: "Bakery",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?f=28&t=41714",
+  title: "Taza Bakery",
+  notes: "",
+  address: "3100 W Devon",
+  city: "Chicago",
+  website: "http://www.tazabakery.com/",
+  date_added: "2015-02-05"
+)
+Restaurant.create(
+  description: "GNR Emeritus. A restaurant that will always hold a special place in our hearts as the namesake of the board.",
+  state: "IL",
+  zip: 60616,
+  phone_number: 3128421964,
+  cuisine_type: "Chinese",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=3716",
+  title: "Little Three Happiness",
+  notes: "",
+  address: "209 W Cermak Rd",
+  city: "Chicago",
+  website: "",
+  date_added: "2005-05-14"
+)
+Restaurant.create(
+  description: "Old school bar food, lots of TVs showing the game(s) of the hour. From classic hand-formed burgers to homemade soups and stews, Toons shows that bar grub can be damned good.",
+  state: "IL",
+  zip: 60613,
+  phone_number: 7739351919,
+  cuisine_type: "Classic American",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=362516#p362516",
+  title: "Toons Bar and Grill",
+  notes: "",
+  address: "3857 N Southport Ave",
+  city: "Chicago",
+  website: "http://chicagotoons.com/",
+  date_added: "2011-02-14"
+)
+Restaurant.create(
+  description: "If you fondly remember the classic hamburger of the 50's, served with fries and a milk shake, these south side spots in Beverly and Oak Lawn are for you. Nothing nouveau or overblown here, no way.",
+  state: "IL",
+  zip: 60643,
+  phone_number: 7734457218,
+  cuisine_type: "Hamburgers",
+  lth_review: "http://lthforum.com/bb/viewtopic.php?p=217295#p217295",
+  title: "Top Notch Beef Burgers",
+  notes: "",
+  address: "2116 W 95th St",
+  city: "Chicago",
+  website: "",
+  date_added: "2008-09-18"
+)
+Restaurant.create(
+  description: "Great breakfasts and other homey foods at a sunny, friendly west Andersonville Swedish restaurant.",
+  state: "IL",
+  zip: 60625,
+  phone_number: 7732679888,
+  cuisine_type: "Northern, Eastern European",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?t=6069",
+  title: "Tre Kronor",
+  notes: "",
+  address: "3258 W Foster",
+  city: "Chicago",
+  website: "http://www.trekronorrestaurant.com/",
+  date_added: "2005-11-29"
+)
+Restaurant.create(
+  description: "Another Chicago classic, masters of the deep fryer for over 50 years. Troha’s does it right.",
+  state: "IL",
+  zip: 60623,
+  phone_number: 7735217847,
+  cuisine_type: "Seafood",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=408855#p408855",
+  title: "Troha’s Chicken & Shrimp",
+  notes: "",
+  address: "4151 W 26th St",
+  city: "Chicago",
+  website: "http://trohas.com/",
+  date_added: "2012-03-12"
+)
+Restaurant.create(
+  description: "Spanish-inspired small plates with an emphasis on artisanal products and the best selection of sherry in the city make for a winning combination at this Near West Side gem. Stop by for some bar bites and imported ham at the Otro Bar where you can interact with the chefs or treat yourself to the full menu with a wide range of impeccable ingredients that change with the season. Who knew bread and butter could taste so good?",
+  state: "IL",
+  zip: 60607,
+  phone_number: 3122439770,
+  cuisine_type: "Mediterranean, Middle Eastern",
+  lth_review: "http://lthforum.com/bb/viewtopic.php?p=441181#p441181",
+  title: "Vera",
+  notes: "",
+  address: "1023 W Lake St",
+  city: "Chicago",
+  website: "http://www.verachicago.com",
+  date_added: "2013-02-17"
+)
+Restaurant.create(
+  description: "More than a bar, this near north side spot features delicious and creative concoctions sure to make an hour or three pass enjoyably.",
+  state: "IL",
+  zip: 60622,
+  phone_number: 7732521500,
+  cuisine_type: "Cocktails",
+  lth_review: "http://lthforum.com/bb/viewtopic.php?p=218670#p218670",
+  title: "The Violet Hour",
+  notes: "",
+  address: "1520 N Damen Ave",
+  city: "Chicago",
+  website: "http://www.theviolethour.com/",
+  date_added: "2008-09-25"
+)
+Restaurant.create(
+  description: "A south side institution and paragon of the Chicago 'cracker crust' pizza style.",
+  state: "IL",
+  zip: 60652,
+  phone_number: 7737352050,
+  cuisine_type: "Pizzeria",
+  lth_review: "http://lthforum.com/bb/viewtopic.php?p=217982#p217982",
+  title: "Vito & Nick's Pizzeria",
+  notes: "",
+  address: "8433 S Pulaski Rd",
+  city: "Chicago",
+  website: "http://vitoandnicks.com/",
+  date_added: "2008-09-22"
+)
+Restaurant.create(
+  description: "Bayless’ newest venture has pristine ingredients, attentive service, and an unflagging attention to what ends up on the plate. Mexican-inspired or Mexican? Who cares when the soups, sandwiches, chocolate and everything else is so good?",
+  state: "IL",
+  zip: 60654,
+  phone_number: 3123343688,
+  cuisine_type: "Mexican",
+  lth_review: "http://www.lthforum.com/bb/viewtopic.php?p=361371#p361371",
+  title: "XOCO",
+  notes: "Clark Ave Location Only",
+  address: "449 N Clark",
+  city: "Chicago",
+  website: "http://www.rickbayless.com/restaurants/xoco.html",
+  date_added: "2008-09-22"
+)
